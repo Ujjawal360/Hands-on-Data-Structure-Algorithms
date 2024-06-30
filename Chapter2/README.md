@@ -18,4 +18,4 @@ A recursive algorithm calls itself repeatedly in order to solve the problem unti
 
 Two Examples of Recursion:
 * Factorial with recursion technique: [factorial calculation using pure recursion](factorialWithRecursion.py)
-* Fibonacci Series with recursion technique: [fibonacci series calculation using pure recursion](/fibonacciSeriesWithRecursion.py)
+* Fibonacci Series with recursion technique: [fibonacci series calculation using pure recursion](fibonacciSeriesWithRecursion.py)
