@@ -12,10 +12,12 @@ or n -> n * factorial(n-1)
 '''
 
 def factorialWithRecursion(n):
+  # base case
   if n == 1:
     return 1
-  else:
-    result = n * factorialWithRecursion(n-1)
-    return result
+
+  # recursive case
+  result = n * factorialWithRecursion(n-1)
+  return result
 
 print(factorialWithRecursion(5))

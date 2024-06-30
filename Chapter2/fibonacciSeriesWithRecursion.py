@@ -12,11 +12,13 @@ So to calculate the fibo series, we need to calculate the fibo series of n-1 and
 '''
 
 def fibonacciSeriesWithRecursion(n):
+  # base case
   if n == 0: 
     return 0
   if n == 1:
     return 1
-
+  
+  # recursive case
   result = fibonacciSeriesWithRecursion(n-1) + fibonacciSeriesWithRecursion(n-2)
   return result
 
