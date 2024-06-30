@@ -36,6 +36,8 @@ Some examples of the divide-and-conquer design technique are as follows:
 * Binary search
 * Quick sort
 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 **Merge sort**
 ![Merge Sort](Merge_Sort.png)
 
@@ -43,6 +45,16 @@ Some examples of the divide-and-conquer design technique are as follows:
 + Firstly, the given list of elements is divided iteratively into equal parts until each sublist contains one element
 + Then these sublist are combined to create a new list in a sorted order
 
-Merge Sort Code using Divide and Conquer: [mergeSort](mergeSort.py)
+Time Complexity of Merge Sort: **n** ***log(n)*** <br>
+Merge Sort Code using Divide and Conquer: [mergeSort in python \[Divide and Conquer technique\] ](mergeSort.py)
 
----------------------------------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<br>
+**Binary Search** <br>
+The binary search algorithm is based on the divide-and-conquer design technique. 
+
+Time Complexity of Merge Sort: ***log(n)***
+
+Binary Search using two pointers: [binary search using two pointer](binarySearchTwoPointer.py) <br>
+Binary Search using recursion: [binary search using recursion](binarySearchRecursion.py)
+<!-- --------------------------------- -->
