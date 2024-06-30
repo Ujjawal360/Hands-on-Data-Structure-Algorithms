@@ -8,7 +8,7 @@ The main algorithmic patterns in computer Science are:
 * Greedy Approach
 
 ---------------------------------
-**Recursion**
+### **Recursion**
 
 A recursive algorithm calls itself repeatedly in order to solve the problem until a certain condition is fulfilled. A recursive function can be in an infinite loop; therefore, it is required that each recursive function adheres to certain properties. At the core of a recursive function are two types of cases:
 
@@ -26,3 +26,23 @@ If these same problems were to solve using **dynamic programming** then, we woul
 * Factorial with dynamic programming: [factorial calculation using pure recursion](factorialWithDP.py)
 * Fibonacci Series with dynamic programming: [fibonacci series calculation using pure recursion](fibonacciSeriesWithDP.py)
 
+---------------------------------
+### **Divide and Conquer**
+
+The divide-and-conquer paradigm divides a problem into smaller sub-problems, and then solves these; finally, it combines the results to obtain a global, optimal solution. More specifically, in divide-and-conquer design, the problem is divided into two smaller sub-problems, with each of them being solved recursively. The partial solutions are merged to obtain a final solution. ***This is a very common problem-solving technique, and is, arguably, the most commonly used approach in algorithm design.***
+
+Some examples of the divide-and-conquer design technique are as follows:
+* Merge sort
+* Binary search
+* Quick sort
+
+**Merge sort**
+![Merge Sort](Merge_Sort.png)
+
++ Merge sort is an algorithm for sorting a list of n natural numbers
++ Firstly, the given list of elements is divided iteratively into equal parts until each sublist contains one element
++ Then these sublist are combined to create a new list in a sorted order
+
+Merge Sort Code using Divide and Conquer: [mergeSort](mergeSort.py)
+
+---------------------------------
