@@ -57,4 +57,21 @@ Time Complexity of Merge Sort: ***log(n)***
 
 Binary Search using two pointers: [binary search using two pointer](binarySearchTwoPointer.py) <br>
 Binary Search using recursion: [binary search using recursion](binarySearchRecursion.py)
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+**Quick Sort** <br>
+The logic of this sorting is:
+1. Find a pivot element (usually is the last element or random)
+2. Find the correct position of the pivot element in the array
+   - Put all the smaller or equal elements to its left
+   - Put all the larger elements to its right
+3. Recursively sort the left subarray and the right subarray
+
+Worst time-complexity: ***n<sup>2</sup>*** 
+Best and average time-complexity: **n** ***log(n)***
+
+
+Quick Sort in pythonic way: [Quick Sort pythonic way](quickSortPythonicWay.py) <br>
+
 <!-- --------------------------------- -->
