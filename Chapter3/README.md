@@ -60,6 +60,7 @@ Binary Search using recursion: [binary search using recursion](binarySearchRecur
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<br>
 **Quick Sort** <br>
 The logic of this sorting is:
 1. Find a pivot element (usually is the last element or random)
@@ -68,7 +69,7 @@ The logic of this sorting is:
    - Put all the larger elements to its right
 3. Recursively sort the left subarray and the right subarray
 
-Worst time-complexity: ***n<sup>2</sup>*** 
+Worst time-complexity: ***n<sup>2</sup>*** <br>
 Best and average time-complexity: **n** ***log(n)***
 
 
