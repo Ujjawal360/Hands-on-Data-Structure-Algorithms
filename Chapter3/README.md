@@ -63,16 +63,36 @@ Binary Search using recursion: [binary search using recursion](binarySearchRecur
 <br>
 **Quick Sort** <br>
 The logic of this sorting is:
-1. Find a pivot element (usually is the last element or random)
-2. Find the correct position of the pivot element in the array
-   - Put all the smaller or equal elements to its left
-   - Put all the larger elements to its right
-3. Recursively sort the left subarray and the right subarray
+1. Find pivot
+2. Do partitioning (putting pivot in correct position)
+   - left side is all less than or equal to pivot
+   - right side is all greater than pivot
+3. This creates two partitions & then these two subarrays are recursively quick sorted again
+
+It is in-place sorting algorithm. <br>
 
 Worst time-complexity: ***n<sup>2</sup>*** <br>
 Best and average time-complexity: **n** ***log(n)***
 
+<br>
+There are two forms of paritions: <br>
+   - Hoare partition scheme [more popular, first element is taken as pivot] <br>
+   - Lomuto partition scheme [less popular, last element is taken as pivot]
 
-Quick Sort in pythonic way: [Quick Sort pythonic way](quickSortPythonicWay.py) <br>
+![Quick Sort logic](quickSortAnimation.png)
+
+*Step 1*: Select the first element as pivot <br>
+*Step 2*: Have start (one after pivot) & end (last of the array). <br>
+*Step 3*: Move start to the ***right*** till you find a element ***greater*** than pivot <br>
+*Step 4*: Move end to the ***left*** till you find a element ***smaller*** than pivot <br>
+*Step 4*: Swap the start and end <br>
+*Step 5*: Continue this until start and end haven't crossed <br>
+*Step 6*: After they have crossed swap pivot element with end <br>
+*Step 7*: Continue this recursively <br>
+
+Initial steps for getting the first partitioning: [first step Quick Sort](firstStepQuickSort.py) <br>
+Final Quick Sort: [Quick Sort](quickSort.py)
+
+
 
 <!-- --------------------------------- -->
