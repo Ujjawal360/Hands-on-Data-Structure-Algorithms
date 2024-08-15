@@ -93,6 +93,9 @@ There are two forms of paritions: <br>
 Initial steps for getting the first partitioning: [first step Quick Sort](firstStepQuickSort.py) <br>
 Final Quick Sort: [Quick Sort](quickSort.py)
 
+![Quick Sort logic](xy.mov)
+
+[](Chapter3/xy.mov)
 
 
 <!-- --------------------------------- -->
