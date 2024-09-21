@@ -7,6 +7,7 @@ The topics are:
 ------------------------------------------------------------------------
 # Single Linked List:
 
+### Append Operation
 * Inserting value at the end (**append operation - using just the head**): [Adding item at end Single Linked List](appendItematEnd_SingleLinkedList.py) <br>
 This implementation of adding the element to the end of the list of **O(n)** because we have to traverse to the end of the list to add an element.
 
