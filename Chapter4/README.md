@@ -8,5 +8,5 @@ The topics are:
 
 We will see Single linked list first:
 
-* Inserting value at the end (append operation): [Adding item at end Single Linked List](Chapter4/appendItematEnd_SingleLinkedList.py)
+* Inserting value at the end (append operation): [Adding item at end Single Linked List](appendItematEnd_SingleLinkedList.py)
 
