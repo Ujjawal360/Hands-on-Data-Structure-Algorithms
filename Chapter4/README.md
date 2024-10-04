@@ -59,3 +59,12 @@ This implementation of adding the element to the end of the list of **O(1)** bec
 
 2. **Append Item at the end of the Double linked list**: [Adding item at end Double Linked List](appendItematEnd_DoubleLinkedList.py) <br>
 3. **Append Item at particular index of the Double linked list**: [Adding item at particular index Double Linked List](appendItematParticular_DoubleLinkedList.py) <br>
+
+### Delete Operation
+1. Delete Item at the beginning of the Double linked list
+2. Delete Item at the end of the Double linked list
+3. Delete Item at particular index of the Double linked list
+------------------------------------------------------------------------
+1. **Delete Item at the beginning of the Double linked list**: [Deleting item at start Double Linked List](deleteItematStart_DoubleLinkedList.py)<br>
+2. **Delete Item at the end of the Double linked list**: [Deleting item at end Double Linked List](deleteItematEnd_DoubleLinkedList.py) <br>
+3. **Delete Item at particular index of the Double linked list**: [Deleting item at particular index Double Linked List](deleteItematParticular_DoubleLinkedList.py)<br>
